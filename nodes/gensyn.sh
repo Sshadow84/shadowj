@@ -1,6 +1,6 @@
 #!/bin/bash
 
-NODE_DIR="$HOME/gensyn/rl-swarm"
+NODE_DIR="$HOME/rl-swarm"
 DOCKER_COMPOSE_FILE="$NODE_DIR/docker-compose.yaml"
 
 find_free_port() {
