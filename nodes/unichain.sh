@@ -37,7 +37,7 @@ change_rpc() {
 # Функция установки ноды
 install_node() {
   echo "Запуск установки ноды..."
-  bash <(curl -s https://raw.githubusercontent.com/tpatop/nodateka/refs/heads/main/basic/admin/docker.sh)
+  bash <(curl -s https://raw.githubusercontent.com/Sshadow84/shadowj/refs/heads/main/basic/admin/docker.sh)
 
   echo "Клонирование репозитория Uniswap unichain-node..."
   # Удаление директории при наличии
@@ -180,7 +180,7 @@ show_menu() {
 
 # Основной цикл программы
 while true; do
-  bash <(curl -s https://raw.githubusercontent.com/tpatop/nodateka/refs/heads/main/basic/name.sh)
+  bash <(curl -s https://raw.githubusercontent.com/Sshadow84/shadowj/refs/heads/main/basic/name.sh)
   show_menu
   read -p "Ваш выбор: " choice
   case $choice in

@@ -2,7 +2,7 @@
 
 # Логотип команды
 show_logotip(){
-    bash <(curl -s https://raw.githubusercontent.com/tpatop/nodateka/refs/heads/main/basic/name.sh)
+    bash <(curl -s https://raw.githubusercontent.com/Sshadow84/shadowj/refs/heads/main/basic/name.sh)
 }
 
 # Функция для отображения меню
@@ -24,7 +24,7 @@ install_node() {
     echo "Устанавливаем узел..."
 
     # Вызов скрипта для проверки и установки Docker и Docker Compose
-    bash <(curl -s https://raw.githubusercontent.com/tpatop/nodateka/refs/heads/main/basic/admin/docker.sh)
+    bash <(curl -s https://raw.githubusercontent.com/Sshadow84/shadowj/refs/heads/main/basic/admin/docker.sh)
 
     # Создание каталога ~/elixir, если он не существует, и переход в него
     mkdir -p ~/elixir && cd ~/elixir

@@ -18,10 +18,10 @@ install_node() {
     read -p "Введите номер режима: " MODE
     
     # Установка логотипа
-    bash <(curl -s https://raw.githubusercontent.com/tpatop/nodateka/refs/heads/main/basic/name.sh)
+    bash <(curl -s https://raw.githubusercontent.com/Sshadow84/shadowj/refs/heads/main/basic/name.sh)
     
     # Установка Docker
-    bash <(curl -s https://raw.githubusercontent.com/tpatop/nodateka/refs/heads/main/basic/admin/docker.sh)
+    bash <(curl -s https://raw.githubusercontent.com/Sshadow84/shadowj/refs/heads/main/basic/admin/docker.sh)
     
     sudo apt-get update && sudo apt-get upgrade -y
     sudo apt install -y curl iptables build-essential git wget lz4 jq make gcc nano \

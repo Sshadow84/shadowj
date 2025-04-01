@@ -2,7 +2,7 @@
 
 # Логотип команды
 #show_logotip() {
-#    bash <(curl -s https://raw.githubusercontent.com/tpatop/nodateka/refs/heads/main/basic/name.sh)
+#    bash <(curl -s https://raw.githubusercontent.com/Sshadow84/shadowj/refs/heads/main/basic/name.sh)
 #}
 # Цвета для текста
 TERRACOTTA='\033[38;5;208m'
@@ -73,7 +73,7 @@ ink_dir="$HOME/ink/node"
 install_dependencies() {
     show_bold 'Установить необходимые пакеты и зависимости?'
     if confirm ''; then
-        bash <(curl -s https://raw.githubusercontent.com/tpatop/nodateka/refs/heads/main/basic/admin/docker.sh)
+        bash <(curl -s https://raw.githubusercontent.com/Sshadow84/shadowj/refs/heads/main/basic/admin/docker.sh)
         sudo apt install jq net-tools
     else
         show_war 'Отменено.'

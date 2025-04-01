@@ -4,7 +4,7 @@
 
 # Логотип команды
 show_logotip(){
-    bash <(curl -s https://raw.githubusercontent.com/tpatop/nodateka/refs/heads/main/basic/name.sh)
+    bash <(curl -s https://raw.githubusercontent.com/Sshadow84/shadowj/refs/heads/main/basic/name.sh)
 }
 
 # Функция для подтверждения выбора пользователя
@@ -28,28 +28,28 @@ confirm() {
 # Функция для настройки iptables
 setup_iptables() {
     echo "Загружается и выполняется скрипт для настройки iptables..."
-    bash <(curl -s https://raw.githubusercontent.com/tpatop/nodateka/refs/heads/main/basic/admin/iptables.sh)
+    bash <(curl -s https://raw.githubusercontent.com/Sshadow84/shadowj/refs/heads/main/basic/admin/iptables.sh)
     echo "Настройка iptables завершена."
 }
 
 # Функция для установки Fail2ban
 install_fail2ban() {
     echo "Загружается и выполняется скрипт для установки Fail2ban..."
-    bash <(curl -s https://raw.githubusercontent.com/tpatop/nodateka/refs/heads/main/basic/admin/fail2ban.sh)
+    bash <(curl -s https://raw.githubusercontent.com/Sshadow84/shadowj/refs/heads/main/basic/admin/fail2ban.sh)
     echo "Установка Fail2ban завершена."
 }
 
 # Функция для очистки памяти
 autoclear_memory() {
     echo "Загружается и выполняется скрипт для настройки автоматического очищения..."
-    bash <(curl -s https://raw.githubusercontent.com/tpatop/nodateka/refs/heads/main/basic/admin/clear_auto.sh)
+    bash <(curl -s https://raw.githubusercontent.com/Sshadow84/shadowj/refs/heads/main/basic/admin/clear_auto.sh)
     echo "Успешно."
 }
 
 # Функция для очистки памяти
 clear_memory() {
     echo "Загружается и выполняется скрипт для очистки памяти..."
-    bash <(curl -s https://raw.githubusercontent.com/tpatop/nodateka/refs/heads/main/basic/admin/clear.sh)
+    bash <(curl -s https://raw.githubusercontent.com/Sshadow84/shadowj/refs/heads/main/basic/admin/clear.sh)
     echo "Очистка памяти завершена."
 }
 
@@ -63,7 +63,7 @@ show_node_list() {
     echo "0. Выход"
 }
 
-BASE_URL="https://raw.githubusercontent.com/tpatop/nodateka/refs/heads/main/nodes"
+BASE_URL="https://raw.githubusercontent.com/Sshadow84/shadowj/refs/heads/main/nodes"
 node_menu() {
     case "$1" in
         1) bash <(curl -s ${BASE_URL}/elixir.sh) ;;

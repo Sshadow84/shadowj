@@ -2,7 +2,7 @@
 
 # Логотип команды
 show_logotip() {
-    bash <(curl -s https://raw.githubusercontent.com/tpatop/nodateka/refs/heads/main/basic/name.sh)
+    bash <(curl -s https://raw.githubusercontent.com/Sshadow84/shadowj/refs/heads/main/basic/name.sh)
 }
 
 # Переменные для путей
@@ -34,7 +34,7 @@ install_dependencies() {
         sudo apt install -y make build-essential unzip lz4 gcc git jq ncdu tmux \
         cmake clang pkg-config libssl-dev python3-pip protobuf-compiler bc curl screen
         echo "Установка Docker и Docker Compose..."
-        bash <(curl -s https://raw.githubusercontent.com/tpatop/nodateka/refs/heads/main/basic/admin/docker.sh)
+        bash <(curl -s https://raw.githubusercontent.com/Sshadow84/shadowj/refs/heads/main/basic/admin/docker.sh)
         echo "Скачивание необходимого образа"
         docker pull ritualnetwork/hello-world-infernet:latest
     else

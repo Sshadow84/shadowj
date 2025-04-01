@@ -2,7 +2,7 @@
 
 # Логотип команды
 show_logotip(){
-    bash <(curl -s https://raw.githubusercontent.com/tpatop/nodateka/refs/heads/main/basic/name.sh)
+    bash <(curl -s https://raw.githubusercontent.com/Sshadow84/shadowj/refs/heads/main/basic/name.sh)
 }
 
 # Функция для создания скрипта ora-restart.sh, если его еще нет
